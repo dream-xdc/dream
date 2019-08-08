@@ -1,0 +1,22 @@
+python E:\datax\datax\bin\datax.py E:\datax\datax\job\job_oracle_oracle.json
+
+1千万数据
+1M 4通道  75秒
+
+
+create table DATAX_WRITER
+(
+  name      VARCHAR2(20),
+  info_date NUMBER(20),
+  info_time DATE,
+  info_flg  VARCHAR2(5),
+  info_type VARCHAR2(500)
+)
+
+
+oracle之间读写快点
+
+mysql读写慢点
+
+oracle到mysql慢
+mysql到oracle快点
